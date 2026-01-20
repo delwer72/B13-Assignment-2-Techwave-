@@ -7,7 +7,7 @@
   font-family: "Open Sans", sans-serif;
   }
   body{
-    background-color: #412567;
+    background-color: #1E1E1E;
     color: white;
   }
   .nav-ber{
@@ -84,7 +84,7 @@
     justify-content: center;
     align-items: center;
     padding: 160px 0px;
-    margin: 50px 0px;
+    margin: 50px 0px 15px 0px;
  }
   
 .circle-box{
@@ -156,8 +156,153 @@
   background-color: rgb(180, 20, 103);
  }
 
+ /* Episode-section */
+ .Episode-section{
+    max-width: 1600px;
+ }
+ .Episode-section-area{
+    max-width: 1200px;
+    background-color: #250D44;
+    margin: -20px auto;
+ }
 
+ .Episode-section-area h2{
+    font-size: 48px;
+    font-weight: 700;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
+ }
+
+ .youtube-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 30px;
+
+ }
+
+.video-1{
+    width: 380px;
+    height: 400px;
+}
+.video-1 h4{
+    font-size: 24px;
+    font-weight: 500;
+  padding: 5px 0;
+}
+
+.video-1 p{
+    font-size: 16px;}
+
+    .video-1 h6{
+        font-size: 18px;
+        font-weight: 500;
+        color: #00FF88;
+        padding: 6px 2px;
+    }
+    
+.video-2{
+    width: 380px;
+    height: 400px;
+}
+
+.video-2 h4{
+    font-size: 24px;
+    font-weight: 500;
+   padding: 5px 0;
+}
+
+.video-2 p{
+    font-size: 16px;}
+
+       .video-2 h6{
+        font-size: 18px;
+        font-weight: 500;
+        color: #00FF88;
+        padding: 6px 2px;
+    }
+   
+.video-3{
+    width: 380px;
+    height: 400px;
+}
+.video-3 h4{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 5px 0;
+}
+.video-1 p{
+    font-size: 16px;
+ 
+}
+   .video-3 h6{
+        font-size: 18px;
+        font-weight: 500;
+        color: #00FF88;
+        padding: 6px 2px;
+    }
+/* host-section */
+    .Host-section{
+          max-width: 1200px;
+          background-color: #533C72;
+            margin: 0 auto;
+           margin-top: 100px;
+           padding: 16px;
+    }
+
+    .Host-section h2{
+     font-size:48px ;
+     font-weight: 700;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     padding-top: 20px;
+    }
+     .Alex-info p{
+        font-size: 1rem;
+    }
+    
+
+    .Alex-Kumar{
+        max-width: 1200px;
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+       }
+       .Alex-Kumar img{
+        width: 300px;
+        max-width: 100%;
+       }
+       
+        .host-img {
+            display: flex;
+        justify-content: left;
+        align-items:center;
+        text-align: left;
+        gap: 8px;
+        margin-top: 8px;
+        width:20px;
+        height: 20px;
+       width: 100px;
+
+        }
+        .host-img a img{
+            width: 30px;
+            height: 30px;
+            margin-top: 20px;
+            padding: 20px;
+            
+        }
+       
 
 
  @media screen and (max-width: 576px) {
@@ -168,6 +313,28 @@
   .hamber{
     display: block;
 }
+.youtube-video{
+    display: flex;
+    flex-direction: column;
+}
   
+ .Alex-Kumar{
+        
+        display: flex;
+       flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+       }
+        .Host-section h2{
+     font-size:30px ;
+     font-weight: 700;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     padding-top: 20px;
+    }
+    
 }
     
