@@ -9,16 +9,20 @@
   body{
     background-color: #1E1E1E;
     color: white;
+    margin: 0 auto;
+  }
+  .main-section{
+    margin: 0 auto;
   }
 
   /* navber-start */
   .nav-ber{
-    max-width: 1600px;
+    max-width: 100rem;
     background-color: #412567;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    padding: 40px;
    }
    .nav-ber h2{
     font-size:2.5rem;
@@ -146,9 +150,7 @@
     border: 1px solid green;
     color: #00FF88;
     background-color: #412567;
-    hover: {
-  background-color: yellow;
-}
+    
     
   font-size:16px;
 }
@@ -158,71 +160,72 @@
  }
 
 
- /* Podcast Section */
-.podcast-section{
-  max-width: 1600px;
-  margin: 0 auto;
-  padding: 100px 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+
+.podcast-section {
+    background: radial-gradient(circle at top, #2b0b4e, #12061f);
+    padding: 120px 20px;
 }
 
-/* About Area */
-.podcast-about-area{
-  max-width: 900px;
+
+.podcast-about-area {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.podcast-about-area h3{
-  font-size: 48px;
-  font-weight: 700;
-  color: #ffffff;
-  margin-bottom: 16px;
+
+.podcast-about-area h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 20px;
 }
 
-.podcast-about-area p{
-  font-size: 16px;
-  line-height: 1.6;
-  color: #ffffff;
+
+.podcast-about-area p {
+    font-size: 15px;
+    line-height: 1.9;
+    color: #cfc6dd;
+    max-width: 850px;
+    margin: 0 auto;
 }
 
-/* Card Grid */
-.podcast-card-area{
-  max-width: 1200px;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 60px;
-  margin-top: 100px;
-  padding-top: 80px;
-  border-top: 1px solid rgba(255,255,255,0.1);
+
+.podcast-card-area {
+    max-width: 75rem;
+    margin: 60px auto 0;
+     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    text-align: center;
 }
 
-/* Card */
-.podcast-card{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
+
+.podcast-card {
+    background: transparent;
 }
 
-.podcast-card h1{
-  color: #00FF88;
-  font-size: 48px;
-  font-weight: 700;
+
+.podcast-card h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #38f2a4; 
+    margin-bottom: 10px;
 }
 
-.podcast-card h5{
-  color: #ffffff;
-  font-size: 14px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+
+.podcast-card h5 {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #b8aecb;
+    text-transform: uppercase;
 }
+ 
 
 /* choose-section-start */
 .choose-section{
-      max-width: 1200px;
+      max-width: 75rem;
       margin: 0 auto;
       padding: 100px 20px;
       text-align: center;
@@ -233,10 +236,8 @@
       font-weight: 700;
       margin-bottom: 50px;
     }
-
-    /* ===================== */
-    /* GRID */
-    /* ===================== */
+    
+    
     .choose-card-area{
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -244,9 +245,7 @@
       gap: 20px;
     }
 
-    /* ===================== */
-    /* CARD */
-    /* ===================== */
+    
     .choose-card{
       background-color: #351165;
       padding: 28px;
@@ -271,9 +270,7 @@
       opacity: 0.9;
     }
 
-    /* ===================== */
-    /* DESKTOP GRID POSITION */
-    /* ===================== */
+   
     .choose-card-1{
       grid-column: 1 / 2;
       grid-row: 1 / 3;
@@ -301,10 +298,10 @@
 
  /* Episode-section */
  .Episode-section{
-    max-width: 1600px;
+    max-width: 100rem;
  }
  .Episode-section-area{
-    max-width: 1200px;
+    max-width: 75rem;
     background-color: #250D44;
     margin: -20px auto;
  }
@@ -320,6 +317,7 @@
     text-align: center;
 
  }
+ /* youtube-section-start */
 
  .youtube-video{
     display: flex;
@@ -390,148 +388,27 @@
         color: #00FF88;
         padding: 6px 2px;
     }
-/* host-section */
-    .Host-section{
-          max-width: 1200px;
-          background-color: #533C72;
-            margin: 0 auto;
-           margin-top: 100px;
-           padding: 16px;
-    }
 
-    .Host-section h2{
-     font-size:48px ;
-     font-weight: 700;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     text-align: center;
-     padding-top: 20px;
-    }
-     .Alex-info p{
-        font-size: 1rem;
-    }
     
+  /* Podcast-section-start */
 
-    .Alex-Kumar{
-        max-width: 1200px;
-        display: flex;
-        gap: 24px;
-        justify-content: center;
-        align-items: center;
-        text-align: left;
-       }
-       .Alex-Kumar img{
-        width: 300px;
-        max-width: 100%;
-       }
-       
-        .host-img {
-            display: flex;
-        justify-content: left;
-        align-items:center;
-        text-align: left;
-        gap: 8px;
-        margin-top: 8px;
-        width:20px;
-        height: 20px;
-       width: 100px;
-
-        }
-        .host-img a img{
-            width: 30px;
-            height: 30px;
-            margin-top: 20px;
-            padding: 20px;
-            
-        }
-/* footer-section */
-           footer{
-            background-image: url(assets/footer-bg.png);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            max-width: 1600px;
-            width: 100%;
-            
-         display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            flex-direction: column;
-            padding: 100px;
-            margin: 120px auto;
-            gap: 20px;
-            margin-bottom: 0px;
-
-
-           }
-           footer h2 span{
-  background: linear-gradient(
-    to right,
-    #F7E93F,
-    #FB09B4,
-    #9100F8
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
+.podcast-section {
+    width: 100%;
 }
-footer h2{
-    font-size: 48px;
-    font-weight: 700;
+.podcast-card-area {
+    max-width: 1200px;
+    margin: 80px auto 0;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+    text-align: center;
 }
-           .footer-img{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            gap: 15px;
-            padding: 10px;
-            color: #FFFFFF;
-           }
-           .footer-img a i{
-            width: 20px;
-            height: 20px;
-            color: #FFFFFF;
-           }
-            .footer-img a {
-           color: #FFFFFF;
-           text-decoration: none;
-           }
-
-
-       
-
-
- @media screen and (max-width: 576px) {
-  .nav-list,
-  .nav-btn {
-    display: none;
-  }
-  .hamber{
-    display: block;
-}
- /* podast-section */
-.podcast-card-area{
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    margin-top: 60px;
-    padding-top: 40px;
-  }
-
-  .podcast-about-area h3{
-    font-size: 32px;
-  }
-
-  .podcast-card h1{
-    font-size: 36px;
-  }
 
   /* choose-section-start */
 
       .choose-section{
-        max-width: 1200px;
+        max-width: 75rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -594,7 +471,7 @@ footer h2{
   margin-bottom: 50px;
 }
 
-/* ===== GRID ===== */
+
 .choose-card-area{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -602,7 +479,7 @@ footer h2{
   gap: 20px;
 }
 
-/* ===== CARD ===== */
+
 .choose-card{
   background-color: #351165;
   padding: 28px;
@@ -626,7 +503,7 @@ footer h2{
   opacity: 0.9;
 }
 
-/* ===== EXACT IMAGE LAYOUT ===== */
+
 .choose-card-1{
   grid-column: 1 / 2;
   grid-row: 1 / 3;
@@ -659,24 +536,319 @@ footer h2{
     display: flex;
     flex-direction: column;
 }
-  
- .Alex-Kumar{
-        
-        display: flex;
-       flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: left;
-       }
-        .Host-section h2{
-     font-size:30px ;
-     font-weight: 700;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     text-align: center;
-     padding-top: 20px;
-    }
-    
+
+  /* host-section-start */
+ 
+.Host-section {
+    background: #12061f;
+    padding: 20px 20px;
 }
+
+
+.Host-section h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 60px;
+}
+
+
+.Alex-Kumar {
+    max-width: 75rem;
+    margin: 0 auto;
+    background:   #1c0836;
+   
+    padding: 50px 60px;
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.Alex-Kumar img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.Alex-info h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.Alex-info p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #cfc6dd;
+    max-width: 720px;
+    margin-bottom: 24px;
+}
+
+
+.host-img {
+    display: flex;
+    gap: 14px;
+}
+
+.host-img a {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #3a176a;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.3s ease;
+}
+
+.host-img img {
+    width: 16px;
+    height: 16px;
+}
+
+
+    footer {
+    background-image: url(assets/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    max-width: 1600px;
+    width: 100%;
+    margin: 120px auto 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding: 100px;
+    gap: 20px;
+}
+
+/* Footer Title */
+footer h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+
+footer h2 span {
+    background: linear-gradient(
+        to right,
+        #F7E93F,
+        #FB09B4,
+        #9100F8
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Social links container */
+.footer-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+/* Links */
+.footer-img a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Icons */
+.footer-img a i {
+    width: 20px;
+    height: 20px;
+    color: #ffffff;
+}
+
+/* Copyright */
+footer p {
+    font-size: 14px;
+    color: #ffffff;
+    opacity: 0.85;
+}
+
+
     
+ @media screen and (max-width: 576px) {
+  .nav-list,
+  .nav-btn {
+    display: none;
+  }
+    .hamber{
+    display: inline-block;}
+    .nav-ber h2{
+    font-size:1.5rem;
+   }
+   .hero-section {
+    padding: 20px 10px;
+  }
+
+  .hero-section h2 {
+    font-size: 36px;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .hero-section p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .hero-btns {
+   display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+.podcast-section{
+  padding: 0 0;
+  margin: 0 auto;
+}
+  .podcast-about-area h3 {
+    font-size: 28px;
+  }
+
+  .Episode-section-area h2{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;}
+
+  .podcast-about-area p {
+    font-size: 10px;
+    line-height: 1;
+    padding: 0 0;
+  }
+
+
+  .podcast-card-area {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .podcast-card h1 {
+    font-size: 28px;
+  }
+
+  .podcast-card h5 {
+    font-size: 11px;
+  }
+  
+
+  .choose-section {
+    padding: 60px 16px;
+  }
+
+  .choose-section > h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .choose-card-area {
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: auto;
+    gap: 16px;
+  }
+  .choose-card-1,
+  .choose-card-2,
+  .choose-card-3,
+  .choose-card-4,
+  .choose-card-5 {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .choose-card h3 {
+    font-size: 18px;
+  }
+
+  .choose-card p {
+    font-size: 13px;
+  }
+
+  .youtube-video {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .video-1,
+  .video-2,
+  .video-3 {
+    width: 100%;
+    height: auto;
+  }
+
+  .video-1 h4,
+  .video-2 h4,
+  .video-3 h4 {
+    font-size: 20px;
+  }
+
+  .video-1 p,
+  .video-2 p,
+  .video-3 p {
+    font-size: 14px;
+  }
+
+  
+  .Alex-Kumar {
+    flex-direction: column;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .Alex-info h3 {
+    font-size: 22px;
+  }
+
+  .Alex-info p {
+    font-size: 14px;
+  }
+
+  .host-img {
+    justify-content: center;
+  }
+
+  footer {
+    padding: 20px 8px;
+  }
+
+  footer h2 {
+    font-size: 32px;
+  }
+
+  .footer-img {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+  }
+
+
+
