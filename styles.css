@@ -302,6 +302,42 @@
             padding: 20px;
             
         }
+
+           footer{
+            background-image: url(assets/footer-bg.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            max-width: 1600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            padding: 100px;
+            margin: 120px;
+            gap: 20px;
+
+           }
+           .footer-img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 15px;
+            padding: 10px;
+            color: #FFFFFF;
+           }
+           .footer-img a i{
+            width: 20px;
+            height: 20px;
+            color: #FFFFFF;
+           }
+            .footer-img a {
+           color: #FFFFFF;
+           }
+
+
        
 
 
